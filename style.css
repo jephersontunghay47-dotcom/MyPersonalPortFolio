@@ -50,7 +50,7 @@ img {
 
 /* Tablet */
 /* Tablet */
-@media (max-width: 600px) {
+@media (max-width: 800px) {
     .profile {
         display: list-item;
         justify-items: center;
