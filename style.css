@@ -35,6 +35,7 @@ nav a:hover {
     padding: 50px;
     gap: 40px;
     min-height: 40vh;
+     font-size: 10px;
 }
 
 .info {
@@ -65,9 +66,9 @@ img {
         display: flex;
         flex-direction: row;
         justify-content: center;
-         gap: 0px;
-        align-item: center;
+        gap: 0px;
     }
+    
     nav a{
         font-size: 12px;
         padding-right: 5px;
