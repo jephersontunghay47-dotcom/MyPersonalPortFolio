@@ -65,6 +65,8 @@ img {
         display: flex;
         flex-direction: row;
         justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px
     }
     nav a{
         padding-right: 5px;
