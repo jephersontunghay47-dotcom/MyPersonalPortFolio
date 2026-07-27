@@ -123,7 +123,7 @@ ul{
 
 
 /* Phone */
-@media (max-width: 600px) {
+@media (max-width: 305px) {
     .profile {
         display: list-item;
         justify-items: center;
@@ -140,7 +140,7 @@ ul{
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 305px) {
     nav {
         display: flex;
         flex-direction: row;
@@ -157,7 +157,7 @@ ul{
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 305px) {
     .card {
         margin: 10px;
         padding: 5px;
