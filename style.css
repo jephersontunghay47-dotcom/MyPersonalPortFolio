@@ -175,7 +175,7 @@ ul {
 
 @media (max-width: 600px) {
     .skills-list {
-        font-size: 8px;
+        font-size: 5px;
         display: flex;
     }
 }
