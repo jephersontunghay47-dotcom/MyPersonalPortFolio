@@ -15,9 +15,10 @@ nav a {
 
 nav {
     display: flex;
+    justify-content: center;
     background-color: black;
-    gap: 20px;
     padding: 10px;
+    gap: 20px;
 }
 
 nav a:hover {
@@ -125,7 +126,7 @@ ul{
 /* Phone */
 @media (max-width: 600px) {
     .profile {
-        display: list-item;
+        display: flow-root;
         justify-items: center;
         font-size: 10px;
     }
@@ -135,24 +136,25 @@ ul{
     }
 
     img {
-        width: 600px;
+        width: 150px;
         height: 150px;
     }
 }
 
 @media (max-width: 600px) {
     nav {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
+        display:flex;
+        justify-content:center;
         gap: 0px;
         margin: 10px;
     }
 
     nav a {
-        font-size: 12px;
-        padding-left: 5px;
-        padding-right: 5px;
+        font-size: 11px;
+        padding: 5px 5px;
+        background-attachment: fixed;;
+        position: relative;
+        right: 5px;
 
     }
 }
@@ -161,6 +163,12 @@ ul{
     .card {
         margin: 10px;
         padding: 5px;
-        font-size: 12px;
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 600px) {
+    .skills-list {
+        display: inline-block;
     }
 }
