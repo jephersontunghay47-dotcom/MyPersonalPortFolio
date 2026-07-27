@@ -29,7 +29,7 @@ nav a:hover {
 }
 
 .profile {
-    background: linear-gradient(1340deg,#094cc0, #b8083dc4);
+    background: linear-gradient(1340deg, #094cc0, #b8083dc4);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -51,38 +51,41 @@ img {
     border: 4px solid #3b82f6;
     box-shadow: 0 0 25px rgba(59, 130, 246, .4);
 }
-img:hover{
+
+img:hover {
     transition: 0.03s;
     transform: scale(1.2);
 }
 
-h2{
-    background-color: rgba(7, 117, 117, 0.623) ;
+h2 {
+    background-color: rgba(7, 117, 117, 0.623);
 }
 
-.crd{
+.crd {
     background: none;
 }
 
 div {
-   margin-top: 50px;
+    margin-top: 50px;
     background-color: antiquewhite;
 }
 
-.about{
-    border-bottom:solid 20px rgb(24, 224, 141) ;
+.about {
+    border-bottom: solid 20px rgb(24, 224, 141);
     border-radius: 20px;
 }
-.skills{
-    border-bottom:solid 20px rgb(24, 224, 141) ;
+
+.skills {
+    border-bottom: solid 20px rgb(24, 224, 141);
     border-radius: 20px;
 }
-ul{
+
+ul {
     display: inline-flex;
     gap: 50px;
 }
 
-.card{
+.card {
     background: linear-gradient(1340deg, #aeb8c9, #3d0b6bc4);
     border-radius: 20px;
     margin: 150px;
@@ -94,7 +97,7 @@ ul{
     font-size: 20px;
 }
 
-.card:hover{
+.card:hover {
     transition: 0.03s;
     transform: scale(1.2);
 }
@@ -106,7 +109,8 @@ ul{
     font-weight: bold;
     text-shadow: 0 0 10px rgba(59, 130, 246, .4);
 }
-.contact-link{
+
+.contact-link {
     background: none;
     color: #1a0403;
     font-size: 20px;
@@ -115,11 +119,12 @@ ul{
     padding: 10px;
 }
 
-.contact-link:hover{
+.contact-link:hover {
     transition: 0.03s;
     transform: scale(1.2);
     color: rgb(233, 26, 11);
 }
+
 
 
 
@@ -143,8 +148,8 @@ ul{
 
 @media (max-width: 600px) {
     nav {
-        display:flex;
-        justify-content:center;
+        display: flex;
+        justify-content: center;
         gap: 0px;
         margin: 10px;
     }
@@ -152,7 +157,8 @@ ul{
     nav a {
         font-size: 11px;
         padding: 5px 5px;
-        background-attachment: fixed;;
+        background-attachment: fixed;
+        ;
         position: relative;
         right: 5px;
 
@@ -169,6 +175,7 @@ ul{
 
 @media (max-width: 600px) {
     .skills-list {
-        display: inline-block;
+        font-size: 8px;
+        display: flex;
     }
 }
